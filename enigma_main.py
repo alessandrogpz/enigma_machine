@@ -17,7 +17,6 @@ logging.debug('Start of program\n')
 char_bs = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 # Rotors
-
 rotor_1 = 'EKMFLGDQVZNTOWYHXUSPAIBRCJ'
 rotor_2 = 'AJDKSIRUXBLHWTMCQGZNPYFVOE'
 rotor_3 = 'BDFHJLCPRTXVZNYEIWGAKMUSQO'
@@ -27,7 +26,7 @@ rotor_6 = 'JPGVOUMFYQBENHZRDKASXLICTW'
 rotor_7 = 'NZJHGRCXMYSWBOUFAIVLPEKQDT'
 rotor_8 = 'FKQHTLXOCBJSPDZRAMEWNIUYGV'
 
-all_rotors = ["rotor_1", "rotor_2", "rotor_3", "rotor_4", "rotor_5", "rotor_6", "rotor_7", "rotor_8"] # FIX THIS SHIT AND SETTINGS
+all_rotors = ["rotor_1", "rotor_2", "rotor_3", "rotor_4", "rotor_5", "rotor_6", "rotor_7", "rotor_8"]
 
 # Reflectors
 all_reflectors = ["reflector_1", "reflector_2"]
