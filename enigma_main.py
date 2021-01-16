@@ -304,7 +304,7 @@ def rotor_spin(rt_1, rt_2, rt_3):
 
 # MAIN CODE
 
-r1, r2, r3, rf = rotor_settings() # FIX
+r1, r2, r3, rf = rotor_settings()
 plug_board()
 raw_string = raw_string()
 pb_text = letter_swap_pb(raw_string)
@@ -312,10 +312,10 @@ pb_text = letter_swap_pb(raw_string)
 for letter in pb_text.upper():
     if letter.isalpha():
         # Rotor spin
-        rotor_spin(r1, r2, r3)  # FIX SETTINGS
+        rotor_spin(r1, r2, r3)  
 
         # Rotor letter
-        new_letter = rotors(letter, r1, r2, r3, rf) # FIX SETTINGS
+        new_letter = rotors(letter, r1, r2, r3, rf) 
         rotor_letters.append(new_letter)
     else:
         rotor_letters.append(letter)
