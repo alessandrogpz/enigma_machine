@@ -3,6 +3,8 @@
 # https://www.cryptomuseum.com/crypto/enigma/wiring.htm
 # Enigma M4 U-Boot 
 
+# Idea for UI https://www.101computing.net/enigma-encoder/
+
 # ---------------------------------------------------------------------------
 
 import logging
